@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.li {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    /* padding: 0px 270px; */
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #1E172F;
+    color: white;
+}
+
+.li1{
+    margin: 0px 0px;
+}
+
+.part1 {
+    background-image: url(/assets/hojasFondo.jpg);
+}
