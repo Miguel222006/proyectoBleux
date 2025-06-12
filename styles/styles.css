@@ -194,6 +194,10 @@ li{
     color: #BCBBC1;
 }
 
+.planstotal {
+    display: flex;
+}
+
 .Plans {
     display: flex;
     flex-direction: column;
