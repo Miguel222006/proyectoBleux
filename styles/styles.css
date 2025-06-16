@@ -67,12 +67,10 @@ header {
     display: flex;
     margin-top: 50px;
     border: solid 1px;
-    margin-top: 50px;
-    border: solid 1px;
     margin-left: 20%;
-    margin-right: 56%;
+    margin-right: 54%;
     border-radius: 4px;
-    justify-content: center;
+    justify-content: space-evenly;
     
 }
 
@@ -148,6 +146,7 @@ header {
 li{
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
 }
 
 .comprobacion {
@@ -161,7 +160,7 @@ li{
 }
 
 .laptop {
-    zoom: 56%;
+    width: 45%;
     padding: 150px;
 }
 
@@ -174,10 +173,12 @@ li{
 .plans {
     background-color: #1E172F;
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
     padding: 40px 20px;
     gap: 30px;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 .part3 h1 {
@@ -188,8 +189,8 @@ li{
 
 .part3 p {
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #BCBBC1;
 }
@@ -202,9 +203,81 @@ li{
     display: flex;
     flex-direction: column;
     background-color: white;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    border-radius: 10px
+    border-radius: 10px;
+    margin-left: 7%;
+    /* margin-right: -4%; */
+    height: 54vh;
+}
+
+.lite {
+    color: #F1228B;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.word{
+    color: #282240;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.free {
+    background-color: #F5F5F5;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lista1{
+    text-align: center;
+}
+
+.free2 {
+    font-size: 20px;
+}
+
+.text1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 14px;
+    width: 68%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button11 {
+    background-color: #F5F5F5;
+    width: 100%;
+    padding-left: 27%;
+}
+
+.Button11 {
+    color: white;
+    background-color: #F03E99;
+    margin: 14px 0px;
+    font-size: 16px;
+    border-radius: 3px;
+    border-style: none;
+    padding: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Button111{ 
+     color: white;
+    background-color: #F03E99;
+    margin: 14px 0px;
+    font-size: 16px;
+    border-radius: 3px;
+    border-style: none;
+    padding: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .estrella {
@@ -227,4 +300,94 @@ li{
 
 .x {
     width: 13px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+footer p{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.name{
+    color: #F1228B;
+}
+
+.imgFace{
+    width: 24px;
+    margin-left: 10px;
+}
+
+.imgTwi{
+    width: 27px;
+    margin-left: 10px;
+}
+
+.imgLink{
+     width: 26px;
+    margin-left: 10px;
+}
+
+.imgInst{
+    width: 22px;
+    margin-left: 10px;
+}
+
+.imgFinal{
+    margin-left: 38%;
+}
+
+@media (max-width: 1279px) {
+    header{
+        font-size: 16px;
+    }
+
+    .imgphone {
+    zoom: 0.7;
+    }
+
+    .part1 h1 {
+    font-size: 40px;
+}
+
+.part1 p {
+    font-size: 18px;
+}
+
+.buttons {
+    margin-right: 27%;
+}
+
+.part2 h1 {
+    font-size: 50px; 
+}
+
+.alpha {
+    width: 50%;
+}
+
+.alpha h2 {
+    font-size: 35px;
+    
+}
+
+.alpha h3 {
+    font-size: 20px;
+}
+.alpha p {
+    font-size: 15px;
+}
+
+
+.laptop {
+        zoom: 1.4%;
+        width: 44%;
+        margin-bottom: 42%;
+        margin-top: 10%;
+    }
 }
