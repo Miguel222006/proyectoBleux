@@ -71,7 +71,7 @@ header {
     margin-right: 54%;
     border-radius: 4px;
     justify-content: space-evenly;
-    
+
 }
 
 .button2 {
@@ -111,7 +111,7 @@ header {
     display: flex;
     justify-content: center;
     font-size: 70px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 2.5%;
     color: #F41486;
 }
@@ -125,7 +125,7 @@ header {
 .alpha h2 {
     font-size: 50px;
     color: #C6337E;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 350;
 }
 
@@ -143,7 +143,7 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-li{
+li {
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
@@ -217,7 +217,7 @@ li{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.word{
+.word {
     color: #282240;
     font-size: 24px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -236,7 +236,7 @@ li{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.lista1{
+.lista1 {
     text-align: center;
 }
 
@@ -269,9 +269,9 @@ li{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.Button111{ 
-     color: white;
-    background-color: #F03E99;
+.Button111 {
+    color: white;
+    background-color: #2e2550;
     margin: 14px 0px;
     font-size: 16px;
     border-radius: 3px;
@@ -302,92 +302,459 @@ li{
     width: 13px;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 10vh;
 }
 
-footer p{
+footer p {
     font-size: 18px;
     font-family: sans-serif;
 }
 
-.name{
+.name {
     color: #F1228B;
 }
 
-.imgFace{
+.imgFace {
     width: 24px;
     margin-left: 10px;
 }
 
-.imgTwi{
+.imgTwi {
     width: 27px;
     margin-left: 10px;
 }
 
-.imgLink{
-     width: 26px;
+.imgLink {
+    width: 26px;
     margin-left: 10px;
 }
 
-.imgInst{
+.imgInst {
     width: 22px;
     margin-left: 10px;
 }
 
-.imgFinal{
+.imgFinal {
     margin-left: 38%;
 }
 
 @media (max-width: 1279px) {
-    header{
+    header {
         font-size: 16px;
     }
 
     .imgphone {
-    zoom: 0.7;
+        zoom: 0.5;
     }
 
     .part1 h1 {
-    font-size: 40px;
-}
+        font-size: 40px;
+    }
 
-.part1 p {
-    font-size: 18px;
-}
+    .part1 p {
+        font-size: 18px;
+    }
 
-.buttons {
-    margin-right: 27%;
-}
+    .buttons {
+        margin-right: 27%;
+    }
 
-.part2 h1 {
-    font-size: 50px; 
-}
+    .part2 h1 {
+        font-size: 50px;
+    }
 
-.alpha {
-    width: 50%;
-}
+    .alpha {
+        width: 50%;
+    }
 
-.alpha h2 {
-    font-size: 35px;
-    
-}
+    .alpha h2 {
+        font-size: 35px;
 
-.alpha h3 {
-    font-size: 20px;
-}
-.alpha p {
-    font-size: 15px;
-}
+    }
+
+    .alpha h3 {
+        font-size: 20px;
+    }
+
+    .alpha p {
+        font-size: 15px;
+    }
 
 
-.laptop {
+    .laptop {
         zoom: 1.4%;
         width: 44%;
-        margin-bottom: 42%;
+        margin-bottom: 16%;
         margin-top: 10%;
     }
+
+    .plans {
+        padding-right: 0%;
+        padding-left: 0%;
+        /* height: 100vh; */
+    }
+
+    .part3 h1 {
+        font-size: 50px;
+    }
+
+    .part3 p {
+        font-size: 14px;
+    }
+
+    .Plans {
+        height: 100vh;
+    }
+
+    .planstotal {
+        margin-right: 20px;
+    }
+
+    .Button11 {
+        font-size: 14px;
+    }
+
+    .Button111 {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 920px) {
+    header {
+        font-size: 14px;
+    }
+
+    .part1 p {
+        font-size: 16px;
+    }
+
+    .button1 {
+        font-size: 11px;
+    }
+
+    .button2 {
+        font-size: 11px;
+    }
+
+    .part2 h1 {
+        font-size: 48px;
+    }
+
+    .alpha {
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .Plans {
+        height: 96vh;
+    }
+
+    .lista1 {
+        font-size: 14px;
+    }
+
+    .text1 {
+        font-size: 15px;
+    }
+
+    .free {
+        font-size: 24px;
+    }
+
+    .free2 {
+        font-size: 16px;
+    }
+
+    .Button11 {
+        font-size: 11px;
+    }
+
+    .Button111 {
+        font-size: 11px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    .imgFace {
+        width: 20px;
+        margin-left: 10px;
+    }
+
+    .imgTwi {
+        width: 20px;
+        margin-left: 10px;
+    }
+
+    .imgLink {
+        width: 20px;
+        margin-left: 10px;
+    }
+
+    .imgInst {
+        width: 19px;
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .imgLogo {
+        zoom: 0.8;
+        margin-left: 50px;
+    }
+
+    header {
+        font-size: 10px;
+    }
+
+    .part1 h1 {
+        font-size: 30px;
+    }
+
+    .part1 p {
+        font-size: 13px;
+    }
+
+    .imgphone {
+        zoom: 0.45;
+        margin-top: 32%;
+    }
+
+    .button1 {
+        font-size: 9px;
+    }
+
+    .button2 {
+        font-size: 9px;
+    }
+
+    .buttons {
+        margin-right: 9%;
+    }
+
+    .part2 h1 {
+        font-size: 30px;
+    }
+
+    .laptop {
+        zoom: 1%;
+        width: 37%;
+        margin-bottom: 24%;
+        margin-top: 25%;
+    }
+
+    .alpha h2 {
+        font-size: 25px;
+    }
+
+    .alpha p {
+        font-size: 11px;
+    }
+
+    .alpha h3 {
+        font-size: 17px;
+    }
+
+    .alpha li {
+        font-size: 15px;
+    }
+
+    .comprobacion {
+        width: 12px;
+    }
+
+    .part3 h1 {
+        font-size: 30px;
+    }
+
+    .part3 p {
+        font-size: 9px;
+    }
+
+    .hoja {
+        width: 50%;
+    }
+
+    .nube {
+        width: 50%;
+    }
+
+    .maletin {
+        width: 50%;
+    }
+
+    .lite {
+        font-size: 20px;
+    }
+
+    .word {
+        font-size: 20px;
+    }
+
+    .free {
+        font-size: 20px;
+    }
+
+    .free2 {
+        font-size: 10px;
+    }
+
+    .lista1 {
+        font-size: 10px;
+    }
+
+    .text1 {
+        font-size: 11px;
+    }
+
+    .Button11 {
+        font-size: 10px;
+    }
+
+    .Button111 {
+        font-size: 10px;
+    }
+
+    .button11 {
+        padding-left: 16%;
+    }
+
+    .Plans {
+        height: 81vh;
+    }
+
+    footer {
+        margin-right: 60px;
+        margin-left: 60px;
+        display: grid;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    .imgFace {
+        width: 15px;
+        margin-left: 0px;
+    }
+
+    .imgTwi {
+        width: 14px;
+        margin-left: 6px;
+    }
+
+    .imgLink {
+        width: 14px;
+        margin-left: 7px;
+    }
+
+    .imgInst {
+        width: 15px;
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 6px;
+    }
+
+    .imgLogo {
+        zoom: 0.5;
+    }
+
+    .part1 {
+        width: 100%;
+    }
+
+    .derecha {
+        width: 100%;
+    }
+
+    .PRODUCT {
+        display: block;
+        height: 92vh;
+
+    }
+
+    .part1 h1 {
+        font-size: 30px;
+        margin-left: 0%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .part1 p {
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .buttons {
+        margin-right: 25%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .button1 {
+        font-size: 10px;
+    }
+
+    .button2 {
+        font-size: 10px;
+    }
+
+    .imgphone {
+        zoom: 0.35;
+        margin-top: 12%;
+        margin-left: 35%;
+    }
+
+    .dd {
+        display: flow;
+        margin-left: 23%;
+        height: 103vh;
+    }
+
+    .laptop {
+        width: 60%;
+        margin-bottom: 0%;
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+
+    .alpha h2 {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .alpha p {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .alpha h3 {
+        font-size: 17px;
+        text-align: center;
+        width: 103%;
+    }
+
+    .alpha li {
+        font-size: 15px;
+        text-align: center;
+    }
+
+
 }
