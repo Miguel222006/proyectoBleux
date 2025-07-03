@@ -666,7 +666,7 @@ footer p {
 
 @media (max-width: 480px) {
     header {
-        font-size: 6px;
+        font-size: 8px;
     }
 
     .imgLogo {
@@ -688,7 +688,7 @@ footer p {
     }
 
     .part1 h1 {
-        font-size: 30px;
+        font-size: 35px;
         margin-left: 0%;
         text-align: center;
         margin-top: 20px;
@@ -699,6 +699,10 @@ footer p {
         text-align: center;
         width: 100%;
         margin-left: 0%;
+    }
+
+    .part3 h1 {
+        margin-bottom: 20px;
     }
 
     .buttons {
@@ -756,5 +760,25 @@ footer p {
         text-align: center;
     }
 
+    .planstotal {
+        display: flex;
+        flex-direction: column;
+        width: 56%;
+    }
 
+    .Plans {
+        margin-bottom: 20px;
+    }
+
+    .button11 {
+        padding-left: 26%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .imgFinal {
+        margin-left: 0%;
+    }
 }
